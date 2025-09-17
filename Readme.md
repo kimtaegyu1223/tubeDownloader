@@ -23,9 +23,8 @@
 등등.
 ---
 
-## 🛠 Installation
+## 🛠 저장소 클론
 
-1. 저장소 클론
     ```bash
     git clone https://github.com/kimtaegyu1223/tubeDownloader.git
     cd tubeDownloader
@@ -49,7 +48,8 @@ pyinstaller --onefile --windowed --add-data "ffmpeg;ffmpeg" main.py
 ---
 
 ## 📂 Project Structure
-youtube-downloader/
+```bash
+tubeDownloader/
 ├── main.py               # 실행 진입점 (Tkinter UI)
 ├── downloader.py         # 다운로드 로직
 ├── utils.py              # 유틸 함수 (ffmpeg 경로, sanitize 등)
@@ -57,6 +57,7 @@ youtube-downloader/
 │   └── bin/              # ffmpeg 바이너리 위치
 ├── requirements.txt
 └── README.md
+```
 ---
 
 ## 📜 License
