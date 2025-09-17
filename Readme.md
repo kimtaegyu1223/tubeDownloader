@@ -27,7 +27,7 @@
 -  Windows
 -  [ffmpeg-release-essentials.zip(v8.0)](...) 다운로드 후 프로젝트의 `ffmpeg/` 폴더에 압축해제.
 -  environment.yml
-
+---
 ## 🛠 저장소 클론
 
     git clone https://github.com/kimtaegyu1223/tubeDownloader.git
