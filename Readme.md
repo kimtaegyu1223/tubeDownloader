@@ -15,21 +15,18 @@
 ---
 
 ## 📦 Requirements
-
 - Python **3.10+**
-- [ffmpeg](https://ffmpeg.org/download.html) 설치 필요  
-  - **Windows**: [Windows builds](https://www.gyan.dev/ffmpeg/builds/) → `ffmpeg.exe` 다운로드 후 프로젝트의 `ffmpeg/` 폴더에 넣기  
+- [ffmpeg](https://www.gyan.dev/ffmpeg/builds/) ffmpeg-release-essentials.zip(v8.0) 다운로드 후 프로젝트의 `ffmpeg/` 폴더에 압축해제.
+- environment.yaml
 ---
 
 ## 🛠 Installation
 
 1. 저장소 클론
     ```bash
-    git clone https://github.com/USERNAME/youtube-downloader.git
-    cd youtube-downloader
+    git clone https://github.com/kimtaegyu1223/tubeDownloader.git
+    cd tubeDownloader
     ```
-
-2. (Windows 전용) ffmpeg 바이너리 다운로드 후 `ffmpeg/` 폴더에 넣기  
 
 ---
 
@@ -37,17 +34,18 @@
 
 ```bash
 python main.py
-
+```
 ---
 
 ## 📦 Build (Windows)
 
-PyInstaller를 사용해 단일 실행 파일을 만들 수 있습니다.
+- PyInstaller를 사용해 단일 실행파일(exe)을 만들 수 있습니다.
 ```bash
 pyinstaller --onefile --windowed --add-data "ffmpeg;ffmpeg" main.py
+```
+---
 
-
-📂 Project Structure
+## 📂 Project Structure
 youtube-downloader/
 ├── main.py               # 실행 진입점 (Tkinter UI)
 ├── downloader.py         # 다운로드 로직
@@ -56,6 +54,7 @@ youtube-downloader/
 │   └── bin/              # ffmpeg 바이너리 위치
 ├── requirements.txt
 └── README.md
-📜 License
+---
 
+## 📜 License
 MIT License
