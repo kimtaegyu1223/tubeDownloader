@@ -30,7 +30,7 @@
 
 ---
 
-## 🛠 Git Clone
+## 🛠 Clone
 
     git clone https://github.com/kimtaegyu1223/tubeDownloader.git
     cd tubeDownloader
@@ -58,7 +58,7 @@ python main.py
 - 기본 영상 저장 경로: 다운로드/youtube_downloads/
 ---
 
-## 📦 실행파일 빌드
+## 📦 Build
 
 - PyInstaller를 사용해 단일 실행파일(exe)을 만들 수 있습니다.
 ```bash
