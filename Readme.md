@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows%20-lightgrey)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
 <p align="left">
-  <img src="docs/UI.png" alt="UI Screenshot" width="400"/>
+  <img src="docs/UI.png" alt="UI Screenshot" width="500"/>
 </p>
 
 
