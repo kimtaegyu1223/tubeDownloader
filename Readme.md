@@ -2,14 +2,14 @@
 
 간단한 Tkinter 기반 YouTube Downloader(GUI)입니다.  
 **1080p 이상 고화질**(DASH)도 지원하며, ffmpeg로 **영상+오디오**를 자동 병합합니다.
-
-<p align="left">
-  <img src="docs/UI.png" alt="UI Screenshot" width="600"/>
-</p>
-
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)]()
 [![Platform](https://img.shields.io/badge/Platform-Windows%20-lightgrey)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
+<p align="left">
+  <img src="docs/UI.png" alt="UI Screenshot" width="400"/>
+</p>
+
+
 
 ---
 
