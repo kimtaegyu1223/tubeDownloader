@@ -39,6 +39,18 @@
     
 ---
 
+## 📂 Project Structure
+```bash
+tubeDownloader/
+├── main.py               # 실행 진입점 (Tkinter UI)
+├── downloader.py         # 다운로드 로직
+├── utils.py              # 유틸 함수 (ffmpeg 경로, sanitize 등)
+├── ffmpeg/               
+│   └── bin/              # ffmpeg 바이너리 위치
+└── README.md
+```
+---
+
 ## ▶️ Usage
 
 ```bash
@@ -56,17 +68,6 @@ pyinstaller --onefile --windowed --add-data "ffmpeg;ffmpeg" main.py
 ```
 ---
 
-## 📂 Project Structure
-```bash
-tubeDownloader/
-├── main.py               # 실행 진입점 (Tkinter UI)
-├── downloader.py         # 다운로드 로직
-├── utils.py              # 유틸 함수 (ffmpeg 경로, sanitize 등)
-├── ffmpeg/               
-│   └── bin/              # ffmpeg 바이너리 위치
-└── README.md
-```
----
 ## ⚠️ Disclaimer
 
 This project is created for educational and personal learning purposes.
