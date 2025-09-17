@@ -1,7 +1,7 @@
 # 🎬 YouTube Downloader (Tkinter GUI)
 
 간단한 Tkinter 기반 YouTube Downloader입니다.  
-1080p 유튜브 고화질 영상을 선택하여 다운로드할 수 있습니다.
+1080p 유튜브 고화질 영상을 다운로드할 수 있습니다.
 
 ---
 
@@ -17,7 +17,10 @@
 ## 📦 Requirements
 - Python **3.10+**
 - [ffmpeg](https://www.gyan.dev/ffmpeg/builds/) ffmpeg-release-essentials.zip(v8.0) 다운로드 후 프로젝트의 `ffmpeg/` 폴더에 압축해제.
-- environment.yaml
+- environment.yml
+-- customtkinter==5.2.2
+-- pyinstaller==6.16.0 
+등등.
 ---
 
 ## 🛠 Installation
