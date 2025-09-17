@@ -1,32 +1,40 @@
 # 🎬 YouTube Downloader (Tkinter GUI)
 
 간단한 Tkinter 기반 YouTube Downloader(GUI)입니다.  
-1080p 유튜브 고화질 영상을 다운로드할 수 있습니다.
+**1080p 이상 고화질**(DASH)도 지원하며, ffmpeg로 **영상+오디오**를 자동 병합합니다.
+
+<p align="left">
+  <img src="docs/UI.png" alt="UI Screenshot" width="600"/>
+</p>
+
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)]()
+[![Platform](https://img.shields.io/badge/Platform-Windows%20-lightgrey)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
 
 ---
 
 ## 🚀 Features
 - ✅ YouTube URL 입력 후 영상 다운로드
-- ✅ 720p Progressive 또는 1080p 이상 고화질 다운로드 지원
-- ✅ 다국어 오디오 트랙 분석하여 한국우선 적용.
+- ✅ 720p 또는 1080p 고화질 다운로드 지원
+- ✅ 한국 오디오 트랙 우선 적용.
 - ✅ ffmpeg을 이용한 영상+오디오 병합
 - ✅ PyInstaller로 빌드하여 실행 파일 빌드.
-
+- ℹ️ 왜 ffmpeg이 필요한가? 
+ 1080p 이상은 YouTube가 영상과 오디오를 분리 스트림(DASH) 으로 제공하는 경우가 많아, 다운로드 후 ffmpeg로 병합이 필요합니다.
 ---
 
 ## 📦 Requirements
 - Python **3.10+**
-- [ffmpeg](https://www.gyan.dev/ffmpeg/builds/) ffmpeg-release-essentials.zip(v8.0) 다운로드 후 프로젝트의 `ffmpeg/` 폴더에 압축해제.
-- environment.yml customtkinter==5.2.2 pyinstaller==6.16.0 등.
+- Windows
+- [ ffmpeg-release-essentials.zip(v8.0)](https://www.gyan.dev/ffmpeg/builds/) 다운로드 후 프로젝트의 `ffmpeg/` 폴더에 압축해제.
+- environment.yml
 ---
 
 ## 🛠 저장소 클론
 
-    ```bash
     git clone https://github.com/kimtaegyu1223/tubeDownloader.git
     cd tubeDownloader
-    ```
-
+    
 ---
 
 ## ▶️ Usage
@@ -34,9 +42,11 @@
 ```bash
 python main.py
 ```
+
+- 기본 영상 저장 경로: 다운로드/youtube_downloads/
 ---
 
-## 📦 Build (Windows)
+## 📦 실행파일 빌드
 
 - PyInstaller를 사용해 단일 실행파일(exe)을 만들 수 있습니다.
 ```bash
@@ -56,9 +66,10 @@ tubeDownloader/
 ```
 ---
 ## ⚠️ Disclaimer
-이 프로젝트는 교육 및 개인 학습 목적으로 제작되었습니다.  
-YouTube 영상 다운로드는 해당 국가의 저작권법 및 YouTube 서비스 약관을 위반할 수 있습니다.  
-사용자는 본 프로젝트를 사용할 때 발생하는 모든 법적 책임을 스스로 집니다
+
+This project is created for educational and personal learning purposes.
+Downloading YouTube videos may violate the copyright laws of the respective country and the YouTube Terms of Service.
+The user assumes all legal responsibility for any consequences that arise from using this project.
 
 ---
 ## 📜 License
