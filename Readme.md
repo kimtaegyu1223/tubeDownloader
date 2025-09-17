@@ -25,16 +25,9 @@
 ## 📦 Requirements
 -  Python **3.10+**
 -  Windows
--  [ffmpeg-release-essentials.zip(v8.0)](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip) 다운로드 후 프로젝트의 `ffmpeg/` 폴더에 압축해제.
+-  **[ffmpeg-release-essentials.zip(v8.0)](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip) 다운로드 후 프로젝트의 `ffmpeg/` 폴더에 압축해제.**
 -  environment.yml
 
----
-
-## 🛠 Clone
-
-    git clone https://github.com/kimtaegyu1223/tubeDownloader.git
-    cd tubeDownloader
-    
 ---
 
 ## 📂 Project Structure
@@ -47,7 +40,17 @@ tubeDownloader/
 │   └── bin/              # ffmpeg 바이너리 위치
 └── README.md
 ```
+
 ---
+
+## 🛠 Setting
+
+    git clone https://github.com/kimtaegyu1223/tubeDownloader.git
+    cd tubeDownloader
+    conda env create -f environment.yml -n tubeDownloader
+    conda activate tubeDownloader
+---
+
 
 ## ▶️ Usage
 
