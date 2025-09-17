@@ -25,7 +25,7 @@
 ## 📦 Requirements
 -  Python **3.10+**
 -  Windows
--  [ffmpeg-release-essentials.zip(v8.0)](...) 다운로드 후 프로젝트의 `ffmpeg/` 폴더에 압축해제.
+-  [ffmpeg-release-essentials.zip(v8.0)](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip) 다운로드 후 프로젝트의 `ffmpeg/` 폴더에 압축해제.
 -  environment.yml
 
 ---
