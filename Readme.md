@@ -21,7 +21,7 @@
 ✅ PyInstaller로 실행파일(exe) 빌드  
   > ℹ️ **왜 ffmpeg이 필요한가?**  
   > 1080p 이상은 YouTube가 영상과 오디오를 분리 스트림(DASH)으로 제공하는 경우가 많아, 다운로드 후 ffmpeg로 병합이 필요합니다.
-
+---
 ## 📦 Requirements
 -  Python **3.10+**
 -  Windows
